@@ -380,7 +380,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                             </small>
 
                                         </div>
-                                        <div class="alert alert-info mb-4">
+                                        <div class="alert alert-info mt-4">
                                             <strong>Fórmula utilizada para o cálculo da parcela:</strong><br>
                                             <span style="font-family:monospace; font-size:1.1em;">
                                                 Parcela = Valor Financiado × <br>
