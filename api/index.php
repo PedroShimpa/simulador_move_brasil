@@ -28,6 +28,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if (!$erro && $valorFinanciado > 0) {
 
+            /*
+             * Cálculo da parcela com juros compostos (Sistema Price):
+             *
+             *           taxa * (1 + taxa) ^ meses
+             * Parcela = -------------------------- * valorFinanciado
+             *              (1 + taxa) ^ meses - 1
+             *
+             * Onde:
+             *   - taxa: taxa de juros mensal
+             *   - meses: número de parcelas
+             *   - valorFinanciado: valor a ser financiado
+             */
         $parcela = $valorFinanciado *
             ($taxa * pow(1 + $taxa, $meses)) /
             (pow(1 + $taxa, $meses) - 1);
@@ -264,6 +276,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <?php if($resultado): ?>
 
                         <div class="resultado p-4 mt-4">
+
+                                <div class="alert alert-info mb-4">
+                                    <strong>Fórmula utilizada para o cálculo da parcela:</strong><br>
+                                    <span style="font-family:monospace; font-size:1.1em;">
+                                        Parcela = Valor Financiado × <br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;[ taxa × (1 + taxa)<sup>meses</sup> ] / [ (1 + taxa)<sup>meses</sup> - 1 ]
+                                    </span><br>
+                                    <small>
+                                        Onde:<br>
+                                        &nbsp;&nbsp;- <b>taxa</b>: taxa de juros mensal<br>
+                                        &nbsp;&nbsp;- <b>meses</b>: número de parcelas<br>
+                                        &nbsp;&nbsp;- <b>Valor Financiado</b>: valor a ser financiado<br>
+                                    </small>
+                                </div>
 
                             <h4 class="mb-4">
                                 Resultado da Simulação
