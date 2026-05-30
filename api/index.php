@@ -425,6 +425,12 @@ $('#formSimulador').on(
 );
 
 </script>
-
+<div class="text-center mt-4 mb-3">
+    <hr>
+    <small class="text-muted">
+        🚖 Simulador Move Brasil<br>
+        Desenvolvido por <strong>Pedro Falconi</strong>
+    </small>
+</div>
 </body>
 </html>
