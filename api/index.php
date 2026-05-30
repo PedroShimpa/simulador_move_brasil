@@ -115,7 +115,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <div class="col-lg-8">
 
             <div class="card card-simulador">
-
+<script>
+  atOptions = {
+    'key' : 'e2a626177246027d7c16f00a1d96bd16',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/e2a626177246027d7c16f00a1d96bd16/invoke.js"></script>
                 <div class="card-body p-4">
 
                     <h2 class="text-center titulo mb-4">
@@ -375,7 +384,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
 
     </div>
-
+<script>
+  atOptions = {
+    'key' : 'e2a626177246027d7c16f00a1d96bd16',
+    'format' : 'iframe',
+    'height' : 90,
+    'width' : 728,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/e2a626177246027d7c16f00a1d96bd16/invoke.js"></script>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
