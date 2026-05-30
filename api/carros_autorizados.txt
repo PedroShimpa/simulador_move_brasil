@@ -2,3 +2,9 @@
 # Formato: categoria;nome;valor
 # categoria: aplicativos | taxistas_condutaxi | taxistas_isencao
 # Exemplo:
+taxistas_condutaxi;NISSAN VERSA SENSE 1.6 FLEX CVT 26;107400
+aplicativos;NISSAN VERSA SENSE 1.6 FLEX CVT 26;117900
+taxistas_isencao;NISSAN VERSA SENSE 1.6 FLEX CVT 26;89000
+aplicativos;SPIN LT 1.8 MN 2026;136390
+taxistas_condutaxi;SPIN LT 1.8 MN 2026;113203
+taxistas_isencao;SPIN LT 1.8 MN 2026;94000
