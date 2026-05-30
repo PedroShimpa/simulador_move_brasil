@@ -1,0 +1,4 @@
+# Lista de carros autorizados
+# Formato: categoria;nome;valor
+# categoria: aplicativos | taxistas_condutaxi | taxistas_isencao
+# Exemplo:

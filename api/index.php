@@ -471,6 +471,84 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             Desenvolvido por <strong>Pedro Falconi</strong>
         </small>
     </div>
+
+        <div class="container mb-5">
+                <h4 class="text-center mb-4">Carros autorizados a receber até o momento</h4>
+                <?php
+                $carros_aplicativos = [];
+                $carros_taxistas_condutaxi = [];
+                $carros_taxistas_isencao = [];
+                $arquivo_carros = __DIR__ . '/carros_autorizados.txt';
+                if (file_exists($arquivo_carros)) {
+                    $linhas = file($arquivo_carros);
+                    foreach ($linhas as $linha) {
+                        $linha = trim($linha);
+                        if ($linha === '' || $linha[0] === '#') continue;
+                        list($cat, $nome, $valor) = explode(';', $linha);
+                        $item = [
+                            'nome' => $nome,
+                            'valor' => $valor
+                        ];
+                        if ($cat === 'aplicativos') $carros_aplicativos[] = $item;
+                        if ($cat === 'taxistas_condutaxi') $carros_taxistas_condutaxi[] = $item;
+                        if ($cat === 'taxistas_isencao') $carros_taxistas_isencao[] = $item;
+                    }
+                }
+                ?>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-header bg-success text-white text-center">Carros para aplicativos<br><small>(sem isenção)</small></div>
+                            <ul class="list-group list-group-flush">
+                                <?php if (count($carros_aplicativos)): foreach ($carros_aplicativos as $carro): ?>
+                                    <li class="list-group-item">
+                                        <?= htmlspecialchars($carro['nome']) ?>
+                                        <?php if ($carro['valor']): ?>
+                                            <span class="text-muted float-end">R$ <?= number_format($carro['valor'], 2, ',', '.') ?></span>
+                                        <?php endif; ?>
+                                    </li>
+                                <?php endforeach; else: ?>
+                                    <li class="list-group-item text-muted">Nenhum veículo cadastrado</li>
+                                <?php endif; ?>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-header bg-primary text-white text-center">Carros para taxistas<br><small>(somente Condutaxi)</small></div>
+                            <ul class="list-group list-group-flush">
+                                <?php if (count($carros_taxistas_condutaxi)): foreach ($carros_taxistas_condutaxi as $carro): ?>
+                                    <li class="list-group-item">
+                                        <?= htmlspecialchars($carro['nome']) ?>
+                                        <?php if ($carro['valor']): ?>
+                                            <span class="text-muted float-end">R$ <?= number_format($carro['valor'], 2, ',', '.') ?></span>
+                                        <?php endif; ?>
+                                    </li>
+                                <?php endforeach; else: ?>
+                                    <li class="list-group-item text-muted">Nenhum veículo cadastrado</li>
+                                <?php endif; ?>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-header bg-warning text-dark text-center">Carros para taxistas<br><small>(isenção total)</small></div>
+                            <ul class="list-group list-group-flush">
+                                <?php if (count($carros_taxistas_isencao)): foreach ($carros_taxistas_isencao as $carro): ?>
+                                    <li class="list-group-item">
+                                        <?= htmlspecialchars($carro['nome']) ?>
+                                        <?php if ($carro['valor']): ?>
+                                            <span class="text-muted float-end">R$ <?= number_format($carro['valor'], 2, ',', '.') ?></span>
+                                        <?php endif; ?>
+                                    </li>
+                                <?php endforeach; else: ?>
+                                    <li class="list-group-item text-muted">Nenhum veículo cadastrado</li>
+                                <?php endif; ?>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYNB7KTE3B"></script>
     <script>
