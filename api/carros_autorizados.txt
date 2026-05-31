@@ -1,3 +1,4 @@
+aplicativos;Onix Hatch MT;101790
 aplicativos;RENEGADE ALTITUDE T270 4X2;130000
 
 aplicativos;ONIX PLUS 1.0 MN 2026;109940
