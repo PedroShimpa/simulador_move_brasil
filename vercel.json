@@ -3,19 +3,12 @@
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.7.3"
-    },
-    "api/adicionar.php": {
-      "runtime": "vercel-php@0.7.3"
     }
   },
   "routes": [
     {
       "src": "/",
       "dest": "/api/index.php"
-    },
-    {
-      "src": "/adicionar",
-      "dest": "/api/adicionar.php"
     }
   ]
 }
