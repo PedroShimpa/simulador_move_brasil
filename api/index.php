@@ -252,6 +252,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 Simular Financiamento
 
                             </button>
+                        </form>
+
                             <script>
                                 atOptions = {
                                     'key': 'b2ae2344c933833261eff651b9f8306c',
@@ -262,7 +264,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 };
                             </script>
                             <script src="https://www.highperformanceformat.com/b2ae2344c933833261eff651b9f8306c/invoke.js"></script>
-                        </form>
 
                         <?php if ($erro): ?>
 
@@ -399,7 +400,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 </div>
 
                             </div>
-
+                     <script>
+                                atOptions = {
+                                    'key': 'b2ae2344c933833261eff651b9f8306c',
+                                    'format': 'iframe',
+                                    'height': 50,
+                                    'width': 320,
+                                    'params': {}
+                                };
+                            </script>
+                            <script src="https://www.highperformanceformat.com/b2ae2344c933833261eff651b9f8306c/invoke.js"></script>
                         <?php endif; ?>
 
                     </div>
@@ -409,16 +419,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
 
         </div>
-        <script>
-            atOptions = {
-                'key': '4be69db97329b0f4a05323d01543c1a0',
-                'format': 'iframe',
-                'height': 300,
-                'width': 160,
-                'params': {}
-            };
-        </script>
-        <script src="https://www.highperformanceformat.com/4be69db97329b0f4a05323d01543c1a0/invoke.js"></script>
+       
 
     </div>
 
@@ -554,6 +555,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </div>
     </div>
+
+     <script>
+            atOptions = {
+                'key': '4be69db97329b0f4a05323d01543c1a0',
+                'format': 'iframe',
+                'height': 300,
+                'width': 160,
+                'params': {}
+            };
+        </script>
+        <script src="https://www.highperformanceformat.com/4be69db97329b0f4a05323d01543c1a0/invoke.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYNB7KTE3B"></script>
     <script>
