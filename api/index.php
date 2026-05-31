@@ -126,15 +126,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 <div class="card card-simulador">
                     <script>
-                        atOptions = {
-                            'key': 'e2a626177246027d7c16f00a1d96bd16',
-                            'format': 'iframe',
-                            'height': 90,
-                            'width': 728,
-                            'params': {}
-                        };
+                    atOptions = {
+                        'key' : 'b2ae2344c933833261eff651b9f8306c',
+                        'format' : 'iframe',
+                        'height' : 50,
+                        'width' : 320,
+                        'params' : {}
+                    };
                     </script>
-                    <script src="https://www.highperformanceformat.com/e2a626177246027d7c16f00a1d96bd16/invoke.js"></script>
+                    <script src="https://www.highperformanceformat.com/b2ae2344c933833261eff651b9f8306c/invoke.js"></script>
+
                     <div class="card-body p-4">
 
                         <h2 class="text-center titulo mb-4">
@@ -408,16 +409,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
 
         </div>
-        <script>
-            atOptions = {
-                'key': 'e2a626177246027d7c16f00a1d96bd16',
-                'format': 'iframe',
-                'height': 90,
-                'width': 728,
-                'params': {}
-            };
-        </script>
-        <script src="https://www.highperformanceformat.com/e2a626177246027d7c16f00a1d96bd16/invoke.js"></script>
+      <script>
+  atOptions = {
+    'key' : '4be69db97329b0f4a05323d01543c1a0',
+    'format' : 'iframe',
+    'height' : 300,
+    'width' : 160,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/4be69db97329b0f4a05323d01543c1a0/invoke.js"></script>
+
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
