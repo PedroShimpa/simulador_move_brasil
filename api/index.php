@@ -299,12 +299,12 @@ html {
 
                             </div>
 
-                            <button
-                                class="btn btn-success w-100 py-3">
+                            <a
+                                class="btn btn-success w-100 py-3" href="#resultado">
 
                                 Simular Financiamento
 
-                            </button>
+</a>
                         </form>
 
                         <script>
@@ -323,7 +323,7 @@ html {
                             <div class="alert alert-danger mt-4">
                                 <?= $erro ?>
                             </div>
-
+<div id="resultado"></div>
                         <?php endif; ?>
 
                         <?php if ($resultado): ?>
