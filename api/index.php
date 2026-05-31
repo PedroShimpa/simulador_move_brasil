@@ -860,7 +860,7 @@ html {
         gtag('config', 'G-LYNB7KTE3B');
     </script>
 
-        <div class="text-center mt-4 mb-3">
+        <div class="text-center mt-4 mb-5 ">
         <hr>
         <small class="text-muted">
             🚖 Simulador Move Brasil<br>
