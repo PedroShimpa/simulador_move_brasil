@@ -65,14 +65,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="pt-BR">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Simulador Move Brasil</title>
-
+    <title>Simulador Move Brasil - Financiamento para Táxi e Aplicativos</title>
+    <meta name="description" content="Simule financiamento de veículos para táxi e aplicativos com as melhores taxas do Brasil. Veja parcelas, juros e carros autorizados. Desenvolvido por Pedro Falconi.">
+    <meta name="keywords" content="simulador, financiamento, táxi, aplicativos, carros, parcelas, juros, move brasil, condutaxi, isenção, veículos, Pedro Falconi">
+    <meta name="author" content="Pedro Falconi">
+    <meta property="og:title" content="Simulador Move Brasil - Financiamento para Táxi e Aplicativos">
+    <meta property="og:description" content="Simule financiamento de veículos para táxi e aplicativos com as melhores taxas do Brasil. Veja parcelas, juros e carros autorizados.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://movebrasil.com.br/">
+    <meta property="og:image" content="https://movebrasil.com.br/assets/simulador-move-brasil.png">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://movebrasil.com.br/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <style>
         body {
             background: #f3f5f7;
@@ -471,7 +477,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <hr>
         <small class="text-muted">
             🚖 Simulador Move Brasil<br>
-            Desenvolvido por <strong>Pedro Falconi</strong>
+            Desenvolvido por <strong>Pedro Falconi</strong><br>
+            <a href="https://wa.me/5511922058537" target="_blank" rel="noopener" class="d-inline-block mt-2" aria-label="WhatsApp Pedro Falconi">
+                <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" style="width:24px;height:24px;vertical-align:middle;"> Fale comigo no WhatsApp
+            </a>
         </small>
     </div>
 
