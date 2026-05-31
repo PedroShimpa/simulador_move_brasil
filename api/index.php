@@ -323,12 +323,11 @@ html {
                             <div class="alert alert-danger mt-4">
                                 <?= $erro ?>
                             </div>
-<div id="resultado"></div>
                         <?php endif; ?>
 
                         <?php if ($resultado): ?>
 
-                            <div class="resultado p-4 mt-4">
+                            <div class="resultado p-4 mt-4"  id="resultado">
 
 
 
