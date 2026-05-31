@@ -299,12 +299,12 @@ html {
 
                             </div>
 
-                            <a
+                            <button
                                 class="btn btn-success w-100 py-3" href="#resultado">
 
                                 Simular Financiamento
 
-</a>
+</button>
                         </form>
 
                         <script>
