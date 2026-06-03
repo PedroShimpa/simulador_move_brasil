@@ -1,3 +1,4 @@
+aplicativos;Dolphin GS;149990
 aplicativos;Onix Hatch MT;101790
 aplicativos;RENEGADE ALTITUDE T270 4X2;130000
 
