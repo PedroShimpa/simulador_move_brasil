@@ -210,8 +210,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="row g-4 mb-5">
                 
                 <!-- Form Card (Left) -->
-                <div class="col-lg-5">
-                    <div class="card card-custom p-4 h-100">
+                <div class="col-lg-5 d-flex flex-column gap-4">
+                    <div class="card card-custom p-4 flex-grow-1">
                         <h4 class="fw-bold mb-4 d-flex align-items-center gap-2">
                             <i class="bi bi-sliders text-emerald"></i>
                             Simulação
@@ -300,6 +300,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <i class="bi bi-calculator-fill me-2"></i> Calcular Parcelas
                             </button>
                         </form>
+                    </div>
+                    <!-- AD 4: Medium Rectangle (300x250) under form -->
+                    <div class="text-center">
+                        <div class="ad-wrapper d-flex flex-column align-items-center mb-0">
+                            <span class="ad-label">Publicidade</span>
+                            <div style="min-height: 250px; width: 300px;">
+                                <script>
+                                  atOptions = {
+                                    'key' : '685dfb69e14e9da46e83769261d11dbf',
+                                    'format' : 'iframe',
+                                    'height' : 250,
+                                    'width' : 300,
+                                    'params' : {}
+                                  };
+                                </script>
+                                <script src="https://www.highperformanceformat.com/685dfb69e14e9da46e83769261d11dbf/invoke.js"></script>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -436,6 +454,43 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                 </div>
 
+            </div>
+
+            <!-- AD TOP 3: Desktop Leaderboard (728x90) / Mobile Banner (320x50) -->
+            <div class="text-center mb-4">
+                <!-- Desktop Leaderboard -->
+                <div class="ad-wrapper d-none d-lg-inline-block">
+                    <span class="ad-label">Publicidade</span>
+                    <div style="min-height: 90px; width: 728px;">
+                        <script>
+                          atOptions = {
+                            'key' : 'e2a626177246027d7c16f00a1d96bd16',
+                            'format' : 'iframe',
+                            'height' : 90,
+                            'width' : 728,
+                            'params' : {}
+                          };
+                        </script>
+                        <script src="https://www.highperformanceformat.com/e2a626177246027d7c16f00a1d96bd16/invoke.js"></script>
+                    </div>
+                </div>
+
+                <!-- Mobile Banner -->
+                <div class="ad-wrapper d-inline-block d-lg-none">
+                    <span class="ad-label">Publicidade</span>
+                    <div style="min-height: 50px; width: 320px;">
+                        <script>
+                          atOptions = {
+                            'key' : 'b2ae2344c933833261eff651b9f8306c',
+                            'format' : 'iframe',
+                            'height' : 50,
+                            'width' : 320,
+                            'params' : {}
+                          };
+                        </script>
+                        <script src="https://www.highperformanceformat.com/b2ae2344c933833261eff651b9f8306c/invoke.js"></script>
+                    </div>
+                </div>
             </div>
 
             <!-- Benefits and Information Section -->
@@ -694,10 +749,62 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
             </section>
 
+            <!-- AD TOP 4: Desktop Leaderboard (728x90) / Mobile Banner (320x50) below vehicles -->
+            <div class="text-center mt-4 mb-2">
+                <!-- Desktop Leaderboard -->
+                <div class="ad-wrapper d-none d-lg-inline-block">
+                    <span class="ad-label">Publicidade</span>
+                    <div style="min-height: 90px; width: 728px;">
+                        <script>
+                          atOptions = {
+                            'key' : 'e2a626177246027d7c16f00a1d96bd16',
+                            'format' : 'iframe',
+                            'height' : 90,
+                            'width' : 728,
+                            'params' : {}
+                          };
+                        </script>
+                        <script src="https://www.highperformanceformat.com/e2a626177246027d7c16f00a1d96bd16/invoke.js"></script>
+                    </div>
+                </div>
+
+                <!-- Mobile Banner -->
+                <div class="ad-wrapper d-inline-block d-lg-none">
+                    <span class="ad-label">Publicidade</span>
+                    <div style="min-height: 50px; width: 320px;">
+                        <script>
+                          atOptions = {
+                            'key' : 'b2ae2344c933833261eff651b9f8306c',
+                            'format' : 'iframe',
+                            'height' : 50,
+                            'width' : 320,
+                            'params' : {}
+                          };
+                        </script>
+                        <script src="https://www.highperformanceformat.com/b2ae2344c933833261eff651b9f8306c/invoke.js"></script>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <!-- RIGHT STICKY AD: Skyscraper (160x300) -->
         <div class="d-none d-xxl-block position-sticky" style="top: 24px; width: 182px; z-index: 5; margin-left: 20px;">
+            <div class="ad-wrapper ad-wrapper-vertical" style="width: 182px; margin-bottom: 20px;">
+                <span class="ad-label">Publicidade</span>
+                <div style="min-height: 300px;">
+                    <script>
+                      atOptions = {
+                        'key' : '4be69db97329b0f4a05323d01543c1a0',
+                        'format' : 'iframe',
+                        'height' : 300,
+                        'width' : 160,
+                        'params' : {}
+                      };
+                    </script>
+                    <script src="https://www.highperformanceformat.com/4be69db97329b0f4a05323d01543c1a0/invoke.js"></script>
+                </div>
+            </div>
             <div class="ad-wrapper ad-wrapper-vertical" style="width: 182px;">
                 <span class="ad-label">Publicidade</span>
                 <div style="min-height: 300px;">
