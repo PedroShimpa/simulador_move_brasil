@@ -123,7 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 
     <!-- External Separated Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -741,7 +741,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </script>
 
     <!-- External Separated Script -->
-    <script src="js/app.js"></script>
+    <script src="../js/app.js"></script>
 
     <!-- Google Analytics Tag -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LYNB7KTE3B"></script>
