@@ -139,7 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 🚖 Simulador Move Brasil
             </h1>
             <p class="lead opacity-90 max-width-600 mx-auto px-3" style="font-weight: 500;">
-                Calcule seu financiamento para táxi ou aplicativos instantaneamente com taxas reduzidas.
+                Calcule seu financiamento para táxi ou aplicativos gratuitamente.
             </p>
         </div>
     </header>
