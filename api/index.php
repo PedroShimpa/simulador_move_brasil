@@ -124,9 +124,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <!-- External Separated Stylesheet -->
     <link rel="stylesheet" href="../css/style.css">
-
-    <!-- Popunder Script -->
-    <script src="https://pl29680017.effectivecpmnetwork.com/d4/9d/06/d49d06a9c71d13a2e5dd75233aec0dab.js"></script>
 </head>
 <body>
 
